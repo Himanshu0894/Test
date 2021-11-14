@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="head">
+     <ul>
+         <li class="menu"><a href="#">Home</a></li>
+         <li class="menu"><a href="#">Email</a></li>
+         <li class="menu"><a href="#">About</a></li>
+         <li class="menu"><a href="#">Contact us</a></li>
+     </ul>
+    </header>
+    <form class="form">
+        First Name : 
+        <input type="text" placeholder="First name" size="8"required><br><br>
+        Last Name :
+        <input type="text" placeholder="Last name" size="8" required><br><br>
+        Email :
+        <input type="text" placeholder="enter your email" pattern=".+@.+\..+" required> <br><br>
+        Password :
+        <input type="password" placeholder=" enter your password" required><br><br>
+        Confirm Password :
+        <input type="password" placeholder="confirm your password" required><br><br>
+        Choose Your Gender : 
+        <input type="radio" name="gender" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="Female">
+        <label for="Female">Female</label> 
+        <input type="radio" name="gender" value="others">
+        <label for="others">Others</label> <br><br>
+        Coding Skills:
+        <input type="checkbox" name="skills" value="java">
+        <label for="java"> Java</label>
+        <input type="checkbox" name="skills" value="HTML/CSS">
+        <label for="HTML/CSS"> HTML/CSS</label>
+        <input type="checkbox" name="skills" value="Python" checked>
+        <label for="Python"> Python</label><br><br>
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+.head{
+    display: block;
+    background-color: aqua;
+}
+.menu{
+    display: inline;
+    margin-right: 30px;
+}
+.form{
+    background-color: cadetblue;
+    text-align: center;
+}
